@@ -3,6 +3,8 @@ const close = document.querySelector('.close');
 var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
 
 open.addEventListener('click', () => {
+	debugger;
+
 	if (tl.reversed()) {
 		tl.play();
 	} else {
